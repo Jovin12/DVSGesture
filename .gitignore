@@ -1,6 +1,5 @@
 # Ignore all .log files
 *.log
-*.png
 
 # Ignore the dataset directory
 DVSGesturedataset/
