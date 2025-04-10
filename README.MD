@@ -65,36 +65,36 @@ event_timeslices.py  ; there are no particular changes made here, but is importa
 
 #### Correct import 
 This was the initial problem where they were importing a function called get_tmad_slice which was not being used, hence change the line 20 from: 
-![alt text](image-1.png)
+![alt text](code_images\image-1.png)
 
 To import the getslice from the event_timeslices file as shown here
-![alt text](image.png)
+![alt text](code_images\image.png)
 
 #### Uncommenting the file creation parts
 *Uncommenting lines 334 to 340*
 <figure style="display: inline-block; margin-right: 10px;">
-  <img src="image-2.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-2.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 <figure style="display: inline-block;">
-  <img src="image-3.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-3.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 
 
 *Uncommenting lines 347 to 349*\
 **Here, uncommenting line 350 will give you an error causing the the program to crash hence, do not uncomment line 350**
 <figure style="display: inline-block; margin-right: 10px;">
-  <img src="image-4.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-4.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 <figure style="display: inline-block;">
-  <img src="image-5.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-5.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 
 *Uncommenting lines 366 to 374*
 <figure style="display: inline-block; margin-right: 10px;">
-  <img src="image-6.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-6.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 <figure style="display: inline-block;">
-  <img src="image-7.png" alt="alt text" style="max-width: 300px; height: auto;">
+  <img src="code_images\image-7.png" alt="alt text" style="max-width: 300px; height: auto;">
 </figure>
 
 ------------------------------------
