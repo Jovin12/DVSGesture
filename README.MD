@@ -65,10 +65,10 @@ event_timeslices.py  ; there are no particular changes made here, but is importa
 
 #### Correct import 
 This was the initial problem where they were importing a function called get_tmad_slice which was not being used, hence change the line 20 from: 
-![alt text](code_images\image-1.png)
+![Line20: from ..events_timeslices import get_tmad_slices ](code_images\image-1.png)
 
 To import the getslice from the event_timeslices file as shown here
-![alt text](code_images\image.png)
+![Line20: from ..events_timeslices import get_tmad_slices, get_slices](code_images\image.png)
 
 #### Uncommenting the file creation parts
 *Uncommenting lines 334 to 340*
