@@ -1,0 +1,8 @@
+# Ignore all .log files
+*.log
+
+# Ignore the dataset directory
+DVSGesturedataset/
+
+# Ignore the temp directory
+temp/
